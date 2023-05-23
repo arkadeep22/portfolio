@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arka Dev-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      body{
+            background-color:#ffffff ;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            
+         
+         }
+         nav{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            height: 60px;
+            background-color:black
+         }
+         nav ul{
+            display: flex;
+            justify-content: center;
+         }
+         nav ul li{
+            list-style: none;
+            margin: 0 23px;
+         }
+         nav ul li a{
+           text-decoration: none;
+           color:white;
+         }
+         nav ul li a:hover
+         {
+           color:grey;
+           font-size: 1.01rem;
+         }
+         main hr{
+            border: 0;
+            height: 1.2px;
+            margin: 60px 84px;
+            background-color: black;
+         }
+         .left{
+            font-size: 1.5rem;
+         }
+         .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0px;
+            align-items: center;
+            color: black;
+         }
+         .firstSection > div{
+            width: 30%;
+         }
+         .leftSection{
+        
+            font-size: 3rem;
+         }
+         .rightSection img{
+             opacity: 1.02;
+             z-index: -1;
+            width: 100%;
+            height: 100%;
+         }
+         .purple{
+            color: blueviolet
+         }
+         
+         #element{
+            color:violet;
+         }
+         .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            color: black;
+            height: 80vh;
+            
+         }
+         .secondSection{
+            font-size: 1.2rem;
+         }
+         .secondSection .box{
+             background-color:black;
+             width: 78vw;
+             height: 2px;
+             margin: 56px 0px;
+             display: flex;
+         }
+         .text-gray{
+            color: grey;
+         }
+         .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: black;
+            margin: 0 120px;
+         }
+       .vertical-title{
+         position: relative;
+         top:75px;
+         width: 150px;
+         font-size: 13px;
+       }
+       .vertical-desc{
+         position: relative;
+         top:86px;
+         color:black;
+         width:150px;
+         font-size: 9px;
+       }
+       .image-top{
+         width: 23px;
+         position:relative;
+         top: -25px;
+         left:-9px
+       }
+       footer{
+         background-color: black;
+        
+         
+       }
+       .footer{
+         display: flex;
+         padding:23px 122px;
+         justify-content: space-evenly;
+       }
+       .footer ul{
+ list-style: none;
+       }
+       .footer> div{
+         width: 223px;
+       }
+       footer .footer-rights{
+             text-align: center;
+             color: grey;
+             padding: 12px 0;
+       }
+       .leftSection .btn{
+         padding:12px;
+         background-color: antiquewhite;
+         cursor: pointer;
+          border-radius:2px solid black ;
+          border-radius: 6px;
+          font-size: 20px;
+       }
+       .leftSection .buttons{
+         padding: 23px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Arka's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/Service.html">Services</a></li>
+                    <li><a href="/Project.html">Project</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <section class="firstSection">
+       <div class="leftSection">Hi My Name is <span class="purple">Arka</span>
+        <div>I am a passionate</div>
+
+       
+        <span id="element"></span>
+        <div class="buttons">
+         <button class="btn">Download Resume</button>
+         <button class="btn">Visit Github</button>
+        </div>
+    </div>
+      
+       <div class="rightSection">
+        <img src="arka89.png.jpg" alt="">
+       </div>
+    </section>
+    <hr>
+    <section class="secondSection">
+      <span class="text-gray">What Have I Done so Far</span>
+     <h1> Work-Experince</h1>
+     <div class="box">
+     <div class="vertical">
+      <img class="image-top" src="html.png" alt="">
+      <div class="vertical-title">
+         HTml Developer (2010-2012)
+      </div>
+      <div class="vertical-desc">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, corrupti?
+      </div>
+   </div>
+   <div class="vertical">
+      <img class="image-top" src="react.png" alt="">
+      <div class="vertical-title">
+         React developer Developer (2012-2014)
+      </div>
+      <div class="vertical-desc">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, corrupti?
+      </div>
+   </div><div class="vertical">
+      <img class="image-top" src="nodejs.png" alt="">
+      <div class="vertical-title">
+         Node-js Developer (2014-2016)
+      </div>
+      <div class="vertical-desc">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, corrupti?
+      </div>
+   </div><div class="vertical">
+      <img class="image-top" src="angular.png" alt="">
+      <div class="vertical-title">
+         Angular Developer (2016-2018)
+      </div>
+      <div class="vertical-desc">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, corrupti?
+      </div>
+   </div><div class="vertical">
+      <img class="image-top" src="arka.png" alt="">
+      <div class="vertical-title">
+         Mern-Stack Developer (2018-2020)
+      </div>
+      <div class="vertical-desc">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, corrupti?
+      </div>
+   </div>
+    
+    
+   </div>
+    </section>
+    </main>
+    <footer>
+      <div class="footer">
+         <div class="footer-first">
+            <h3>Arka's Developer Portfolio</h3>
+         </div>
+         <div class="footer-second">
+            <ul>
+               <li>Home</li>
+               <li>About</li>
+               <li>Services</li>
+               <li>Contact</li>
+            </ul>
+           
+         </div>
+         <div class="footer-third">
+            <ul>
+               <li>Home</li>
+               <li>About</li>
+               <li>Services</li>
+               <li>Contact</li>
+            </ul>
+         </div>
+         <div class="footer-fourth">
+            <ul>
+               <li>Home</li>
+               <li>About</li>
+               <li>Services</li>
+               <li>Contact</li>
+            </ul>
+         </div>
+        
+      </div>
+      <div class="footer-rights">
+         Copyright&#169; arka's portfolio.com | All rights Reserved
+      </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web-Developer','Graphic-Designer','Web-Designer'],
+        typeSpeed: 50,
+      });
+    </script>
+</body>
+</html>
